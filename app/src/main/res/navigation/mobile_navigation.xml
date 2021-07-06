@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_reports">
+
+    <fragment
+        android:id="@+id/nav_sales"
+        android:name="uz.jkamoliddinov0303.iteachprojects.ui.sales.SalesFragment"
+        android:label="@string/menu_title_sales"
+        tools:layout="@layout/fragment_sales" />
+
+    <fragment
+        android:id="@+id/nav_reports"
+        android:name="uz.jkamoliddinov0303.iteachprojects.ui.umumiyhisobot.GeneralReportsFragment"
+        android:label="@string/menu_title_reports"
+        tools:layout="@layout/fragment_general_reports" />
+
+    <fragment
+        android:id="@+id/nav_branches"
+        android:name="uz.jkamoliddinov0303.iteachprojects.ui.branches.BranchesFragment"
+        android:label="@string/menu_title_branches"
+        tools:layout="@layout/fragment_branches" />
+    <fragment
+        android:id="@+id/nav_delivers"
+        android:name="uz.jkamoliddinov0303.iteachprojects.ui.delivers.DeliversFragment"
+        android:label="@string/menu_title_delivers"
+        tools:layout="@layout/delivers_fragment" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="uz.jkamoliddinov0303.iteachprojects.ui.settings.SettingsFragment"
+        android:label="@string/menu_title_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

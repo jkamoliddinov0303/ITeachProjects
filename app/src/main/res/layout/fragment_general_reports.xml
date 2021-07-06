@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.umumiyhisobot.GeneralReportsFragment">
+    <com.google.android.material.tabs.TabLayout
+        android:layout_marginTop="8dp"
+        android:id="@+id/reports_tab_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@drawable/back_tab_layout"
+        app:tabBackground="@drawable/tab_back_selector"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp"
+        app:tabMode="scrollable"
+        app:tabPadding="2dp"
+        app:tabRippleColor="@android:color/transparent"
+        app:tabSelectedTextColor="@color/purple_700"
+        app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+        app:tabTextColor="@color/white">
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_reports"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+/>
+</LinearLayout>

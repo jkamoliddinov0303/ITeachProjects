@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ITeachProjects</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Shops Admin Panel</string>
+    <string name="nav_header_subtitle">jkamoliddinov0303@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_title_reports">Umumiy Hisobot</string>
+    <string name="menu_title_sales">Savdo</string>
+    <string name="menu_title_branches">Filiallar</string>
+    <string name="menu_title_delivers">Yetkazib berish</string>
+    <string name="menu_title_settings">Sozlamalar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
